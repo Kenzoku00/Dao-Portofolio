@@ -561,6 +561,16 @@ body.nav-active { overflow: hidden; }
   --content-color: var(--white);
 }
 
+.icon-image {
+  width: 60px;
+  height: 60px;
+}
+
+.icon-image2 {
+  width: 50px;
+  height: 50px;
+}
+
 
 
 
@@ -601,6 +611,10 @@ body.nav-active { overflow: hidden; }
 /*-----------------------------------*\
   #PORTFOLIO
 \*-----------------------------------*/
+
+.portfolio {
+  margin-top: 6em;
+}
 
 .portfolio .slider { --item-gap: 16px; }
 
