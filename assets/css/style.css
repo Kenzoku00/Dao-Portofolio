@@ -1000,7 +1000,6 @@ body.nav-active { overflow: hidden; }
   .hero-title { word-break: normal; }
 
   .hero .section-text { margin-block-end: 52px; }
-
 }
 
 /**Porto Page**/
@@ -1011,11 +1010,12 @@ body.nav-active { overflow: hidden; }
 }
 
 .lr {
-  display: flex;
+  display: block;
   align-items: flex-start;
   gap: 1rem;
   padding-top: 5rem;
   max-width: 1050px;
+
 }
 
 .project-content {
@@ -1029,6 +1029,7 @@ body.nav-active { overflow: hidden; }
   height: auto;
   border-radius: 8px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  margin-top: 4rem;
 }
 
 .project-details {
