@@ -1002,3 +1002,117 @@ body.nav-active { overflow: hidden; }
   .hero .section-text { margin-block-end: 52px; }
 
 }
+
+/**Porto Page**/
+
+/* Section GSA */
+.GSA {
+  padding: 5rem 0;
+}
+
+.lr {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding-top: 5rem;
+  max-width: 1050px;
+}
+
+.project-content {
+  margin-top: 0; 
+  flex: 1;
+}
+
+.project-image {
+  width: 100%;
+  max-width: 520px; 
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.project-details {
+  flex: 1;
+  margin-left: 1rem;
+  margin-top: 2rem;
+}
+
+.project-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 0rem;
+  color: var(--white);
+  text-transform: uppercase;
+}
+
+.pdetails {
+  display: flex;
+}
+
+.project-role {
+  font-size: 1.5rem;
+  font-weight: 550;
+  margin-bottom: 1rem;
+  color: var(--white);
+}
+
+.project-date {
+  font-size: 1.5rem;
+  font-weight: 550;
+  margin-bottom: 1rem;
+  color: var(--roman-silver);
+  margin-left: auto;
+  margin-right: 1em;
+}
+
+.project-description {
+  list-style: disc;
+  padding-left: 1.5rem;
+  line-height: 1.6;
+}
+
+.project {
+  margin-top: 5rem;
+}
+
+/* Project Card */
+
+.project-img {
+  margin-top: 6em;
+}
+
+.project .slider { --item-gap: 16px; }
+
+.project-card {
+  position: relative;
+  background-color: transparent;
+  transition: var(--cubic-ease-out);
+}
+
+.project-card .img-cover { transition: var(--cubic-ease-out); }
+
+.project-card .card-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  width: 100%;
+  transform: translate(-55%, -50%);
+  opacity: 0;
+  transition: var(--cubic-ease-out);
+  z-index: 1;
+}
+
+.project-card .card-text { color: var(--white); }
+
+.project-card:is(:hover, :focus-within) .img-cover {
+  opacity: 0.1;
+  transform: scale(0.95);
+}
+
+.project-card:is(:hover, :focus-within) .card-content {
+  transform: translate(-50%, -50%);
+  opacity: 1;
+}
+
+

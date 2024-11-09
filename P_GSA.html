@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Ilyasa Daffa Saskara - Game Developer</title>
+  <meta name="title" content="Ilyasa Daffa Saskara - Game Developer">
+  <meta name="description" content="This is a personal portfolio website by Ilyasa Daffa Saskara">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/Logo.png" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preloader" data-preloader>
+    <div class="circle"></div>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/Logo.png" width="60" height="60" alt="Pfolio home">
+      </a>
+
+      <button class="nav-toggle-btn" data-nav-toggler data-nav-toggle-btn aria-label="Toggle menu">
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+      </button>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#tools" class="navbar-link">Tools</a>
+          </li>
+
+          <li>
+            <a href="#portfolio" class="navbar-link">Portfolio</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    
+    <section class="GSA" aria-labelledby="GSA-label"> 
+        <div class="container">
+            
+            <div class="lr">
+                <div class="project-content">
+                    <img src="assets/images/Banner/BGSA.png" alt="GSA" class="project-image">
+                </div>
+    
+                <div class="project-details">
+                    <h2 class="project-title">Guess Strange Animal</h2>
+                    <div class="pdetails">
+                        <p class="project-role">- Game Design</p>
+                        <p class="project-date">Jan 2024 - Jan 2024</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tools" class="service" aria-labelledby="service-label">
+      <div class="container">
+
+        <div class="title-wrapper">
+
+          <div>
+            <p class="section-subtitle">
+              Project Details
+            </p>
+
+            <h2 class="h2 section-title" id="service-label">Details</h2>
+          </div>
+
+          <p class="section-text">
+              Guess Strange Animal is a fun guessing game created during the Global Game Jam Malang 2024 with the theme "Make Me Laugh." 
+              Players must identify strange animals presented at each level using hints that provided. <br> <br>
+              As the game designer, I was responsible for searching strange animals, along with designing the hints, blending humor and clever clues to guide players without making the game too easy.
+              The game is filled with humor and surprises, making it a delightful challenge for players who enjoy quirky puzzles and unexpected laughs.
+          </p>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section id="project" class="project" aria-labelledby="service-label">
+      <div class="container">
+
+        <div class="title-wrapper">
+
+          <div>
+            <p class="section-subtitle">
+              Project Documentation
+            </p>
+
+            <h2 class="h2 section-title" id="service-label">Image</h2>
+          </div>
+
+          <p class="section-text">
+              Here are some image documentation of Guess Strange Animal Game Project.
+          </p>
+
+        </div>
+
+        <div class="slider" data-slider>
+
+          <ul class="slider-container" data-slider-container>
+
+            <li class="slider-project">
+              <div class="project-card img-holder" style="--width: 56; --height: 125;">
+
+                <img src="./assets/images/GSA/GSA 1.jpg" width="56" height="125" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+              </div>
+            </li>
+
+            <li class="slider-project">
+              <div class="project-card img-holder" style="--width: 56; --height: 125;">
+
+                <img src="./assets/images/GSA/GSA 2.jpg" width="56" height="125" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+              </div>
+            </li>
+
+            <li class="slider-project">
+              <div class="project-card img-holder" style="--width: 56; --height: 125;">
+
+                <img src="./assets/images/GSA/GSA 3.jpg" width="56" height="125" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+              </div>
+            </li>
+
+            <li class="slider-project">
+              <div class="project-card img-holder" style="--width: 56; --height: 125;">
+
+                <img src="./assets/images/GSA/GSA 4.jpg" width="56" height="125" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+              </div>
+            </li>
+
+          </ul>
+
+          <div class="slider-controls">
+            <button class="slider-control prev" data-slider-prev aria-label="Slide to previous item">
+              <div class="line"></div>
+              <div class="arrow"></div>
+            </button>
+
+            <button class="slider-control next" data-slider-next aria-label="Slide to next item">
+              <div class="line"></div>
+              <div class="arrow"></div>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer id="contact" class="footer">
+    <div class="container">
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Get in touch</p>
+        </li>
+
+        <li>
+          <a href="mailto:info@kwilliams.com" class="footer-link">ilyasadaffa2197@gmail.com</a>
+        </li>
+
+      </ul>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Locations</p>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">East Java - Indonesia</a>
+        </li>
+
+      </ul>
+
+      <ul class="social-list">
+
+        <li>
+          <a href="https://www.instagram.com/ilyasa_daffas/" class="social-link">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://github.com/Kenzoku00" class="social-link">
+            <ion-icon name="logo-github"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.linkedin.com/in/ilyasa-daffa-saskara" class="social-link">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </li>
+
+      </ul>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
