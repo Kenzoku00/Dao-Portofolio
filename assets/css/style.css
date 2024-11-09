@@ -1090,7 +1090,7 @@ body.nav-active { overflow: hidden; }
   transition: var(--cubic-ease-out);
 }
 
-.project-card .img-cover { transition: var(--cubic-ease-out); }
+.project-card .img-project { transition: var(--cubic-ease-out); }
 
 .project-card .card-content {
   position: absolute;
@@ -1106,7 +1106,7 @@ body.nav-active { overflow: hidden; }
 
 .project-card .card-text { color: var(--white); }
 
-.project-card:is(:hover, :focus-within) .img-cover {
+.project-card:is(:hover, :focus-within) .img-project {
   opacity: 0.1;
   transform: scale(0.95);
 }
@@ -1114,6 +1114,12 @@ body.nav-active { overflow: hidden; }
 .project-card:is(:hover, :focus-within) .card-content {
   transform: translate(-50%, -50%);
   opacity: 1;
+}
+
+.img-project {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 
