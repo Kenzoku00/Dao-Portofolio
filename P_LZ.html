@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Ilyasa Daffa Saskara - Game Developer</title>
+  <meta name="title" content="Ilyasa Daffa Saskara - Game Developer">
+  <meta name="description" content="This is a personal portfolio website by Ilyasa Daffa Saskara">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/Logo.png" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preloader" data-preloader>
+    <div class="circle"></div>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/Logo.png" width="60" height="60" alt="Pfolio home">
+      </a>
+
+      <button class="nav-toggle-btn" data-nav-toggler data-nav-toggle-btn aria-label="Toggle menu">
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+      </button>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="index.html" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#details" class="navbar-link">Details</a>
+          </li>
+
+          <li>
+            <a href="#images" class="navbar-link">Image</a>
+          </li>
+
+          <li>
+            <a href="#video" class="navbar-link">Video</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    
+    <section class="GSA" aria-labelledby="GSA-label"> 
+        <div class="container">
+            
+            <div class="lr">
+                <div class="project-details">
+                    <h2 class="project-title">Lunc Zombies</h2>
+                    <div class="pdetails">
+                        <p class="project-role">- Programmer</p>
+                        <p class="project-date">Mar 2024 - May 2024</p>
+                    </div>
+                </div>
+
+                <div class="project-content">
+                  <img src="assets/images/Banner/BLZ.png" alt="GSA" class="project-image">
+              </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="details" class="service" aria-labelledby="service-label">
+      <div class="container">
+
+        <div class="title-wrapper">
+
+          <div>
+            <p class="section-subtitle">
+              Project Details
+            </p>
+
+            <h2 class="h2 section-title" id="service-label">Details</h2>
+          </div>
+
+          <p class="section-text">
+              A Way Up is a game that challenges players to climb floating objects and navigate through progressively difficult levels to reach the highest point on the map. 
+              Inspired by the mechanics of "Only Up," if you fall in the middle of level you will restart over your landing place, there is no checkpoint.
+              I am developing this project as indie developer for my school project, using Unreal Engine for developing the game.
+          </p>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section id="images" class="project" aria-labelledby="service-label">
+      <div class="container">
+
+        <div class="title-wrapper">
+
+          <div>
+            <p class="section-subtitle">
+              Project Documentation
+            </p>
+
+            <h2 class="h2 section-title" id="service-label">Image</h2>
+          </div>
+
+          <p class="section-text">
+              Here are some image documentation of Lunc Zombies Game Project.
+          </p>
+
+        </div>
+
+        <div class="slider" data-slider>
+
+          <ul class="slider-container" data-slider-container>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./assets/images/LZ/LZ1.png" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./assets/images/LZ/LZ2.png" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./assets/images/LZ/LZ3.png" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+              </div>
+            </li>
+
+          </ul>
+
+          <div class="slider-controls">
+            <button class="slider-control prev" data-slider-prev aria-label="Slide to previous item">
+              <div class="line"></div>
+              <div class="arrow"></div>
+            </button>
+
+            <button class="slider-control next" data-slider-next aria-label="Slide to next item">
+              <div class="line"></div>
+              <div class="arrow"></div>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer id="contact" class="footer">
+    <div class="container">
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Get in touch</p>
+        </li>
+
+        <li>
+          <a href="mailto:ilyasadaffa2197@gmail.com" class="footer-link">ilyasadaffa2197@gmail.com</a>
+        </li>
+
+      </ul>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Locations</p>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">East Java - Indonesia</a>
+        </li>
+
+      </ul>
+
+      <ul class="social-list">
+
+        <li>
+          <a href="https://www.instagram.com/ilyasa_daffas/" class="social-link">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://github.com/Kenzoku00" class="social-link">
+            <ion-icon name="logo-github"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.linkedin.com/in/ilyasa-daffa-saskara" class="social-link">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </li>
+
+      </ul>
+
+    </div>
+  </footer>
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
