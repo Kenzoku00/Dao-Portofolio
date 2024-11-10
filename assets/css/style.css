@@ -154,7 +154,7 @@ body.nav-active { overflow: hidden; }
 .section { padding-block: var(--section-padding); }
 
 .h1 {
-  font-size: 4.2rem;
+  font-size: 5.5rem;
   font-weight: var(--fw-800);
 }
 
