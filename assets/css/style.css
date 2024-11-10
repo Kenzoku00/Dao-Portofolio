@@ -154,7 +154,7 @@ body.nav-active { overflow: hidden; }
 .section { padding-block: var(--section-padding); }
 
 .h1 {
-  font-size: 5.5rem;
+  font-size: var(--fs-3);
   font-weight: var(--fw-800);
 }
 
@@ -515,8 +515,6 @@ body.nav-active { overflow: hidden; }
 .hero .section-text { margin-block: 30px; }
 
 .hero .btn { margin-inline: auto; }
-
-h1
 
 
 
