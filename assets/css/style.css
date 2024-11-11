@@ -1122,4 +1122,28 @@ body.nav-active { overflow: hidden; }
   object-fit: cover;
 }
 
+.vid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.project-videoV {
+  width: 100%;
+  max-width: 250px;
+  border-radius: 10px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+
+/* Responsive untuk video */
+@media (max-width: 768px) {
+  .project-video {
+    width: 90%;
+    max-width: 100%;
+  }
+}
+
+
 
