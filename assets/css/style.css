@@ -1135,6 +1135,18 @@ body.nav-active { overflow: hidden; }
   border-radius: 10px;
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
   outline: none;
+  border-radius: 10px;
+  margin-bottom: 3rem;
+}
+
+.project-videoH {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  outline: none;
+  border-radius: 20px;
+  margin-bottom: 3rem;
 }
 
 /* Responsive untuk video */
