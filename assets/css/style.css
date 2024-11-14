@@ -1157,5 +1157,18 @@ body.nav-active { overflow: hidden; }
   }
 }
 
+.container-contact {
+  display: flex;
+  flex-direction: row;
+  margin-top: 3rem;
+  gap: 5rem;
+}
+
+@media (max-width: 768px) {
+  .container-contact {
+    flex-direction: column;
+  }
+}
+
 
 
